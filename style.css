@@ -1,0 +1,67 @@
+/* General Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(41, 41, 41);
+}
+
+html{
+    scroll-behavior: smooth; /*scroll smoothly when clicking header links*/
+}
+
+p{
+    color: rgb(85,85,85);
+}
+
+/* Transition */
+
+a,
+.button{
+    transition: all 300ms ease;
+}
+
+/* Desktop Nav */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items:center;
+    height: 10vh;
+}
+
+.logo{
+    color: rgb(0, 200, 200);
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none; /* remove bullet points */
+    font-size: 1.5rem;
+}
+
+a {
+    color: rgb(0, 200, 200);
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(0, 160, 160);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
