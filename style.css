@@ -27,6 +27,25 @@ a,
     transition: all 300ms ease;
 }
 
+/* Profile Picture */
+
+.profile {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.profile img{
+    height: 15rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgb(0,200,200);
+}
+
+.profile h1{
+    font-size: 3rem;
+    color: rgb(0, 200, 200);
+    margin: 1.2rem;
+}
+
 /* Desktop Nav */
 
 nav, .nav-links {
@@ -39,29 +58,21 @@ nav{
     height: 10vh;
 }
 
-.logo{
-    color: rgb(0, 200, 200);
-    font-size: 2rem;
-}
-
-.logo:hover{
-    cursor: default;
-}
-
 .nav-links{
-    gap: 2rem;
+    gap: 5rem;
     list-style: none; /* remove bullet points */
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 a {
     color: rgb(0, 200, 200);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: rgb(41, 41, 41);
 }
 
 a:hover {
-    color: rgb(0, 160, 160);
+    color: rgb(0, 110, 110);
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(0, 110, 110);
 }

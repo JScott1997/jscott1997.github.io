@@ -9,16 +9,35 @@
     <link rel="stylesheet" href="mediaquereies.css">
 </head>
 <body>
+    <div class="profile">
+        <img src="assets/Profile-Image.jpg" alt="Profile Image">
+        <h1>Curtitties</h1>
+    </div>
     <nav id="desktop-nav">
-        <div class="logo">
-            Jared Scott
-        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contacts">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="hamburger-menu">
+            <div class="icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </div>
         </div>
     </nav>
     <script src="script.js"></script>
