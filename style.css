@@ -76,3 +76,23 @@ a:hover {
     text-underline-offset: 0.7rem;
     text-decoration-color: rgb(0, 110, 110);
 }
+
+/* Hamburger Menu */
+
+#mobile-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
