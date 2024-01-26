@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-    color: rgb(0, 110, 110);
+    color: rgb(0, 130, 130);
     text-decoration: underline;
     text-underline-offset: 0.7rem;
     text-decoration-color: rgb(0, 110, 110);
@@ -81,6 +81,9 @@ a:hover {
 
 #mobile-nav {
     display: none;
+    align-items: center;
+    position:absolute;
+    right: 1rem;
 }
 
 .hamburger-menu {
@@ -96,3 +99,73 @@ a:hover {
     width: 1.5rem;
     cursor: pointer;
 }
+
+.icon span{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 200, 200);
+    transition: all 0.3 ease-in-out;
+    right: 0;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: rgb(41,41,41);
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+    display: block;
+    padding: 0.625rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(0,200,200);
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+    color: rgb(0, 130, 130);
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(0, 110, 110);
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.icon span:first-child {
+    transform: none;
+}
+
+.icon span:nth-child(2) {
+    opacity: 1;
+}
+
+.icon span:last-child{
+    transform: none;
+}
+
+/* About Section */
