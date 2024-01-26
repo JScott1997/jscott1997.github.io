@@ -21,14 +21,24 @@
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#education" onclick="toggleMenu()">Education</a></li>
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
             </div>
         </div>
     </nav>
-    <div class="profile">
-        <img src="assets/Profile-Image.jpg" alt="Profile Image">
-        <h1>Jared Scott</h1>
-    </div>
+    <div id="profile-section">
+        <div class="profile">
+            <img src="./assets/Profile-Image.jpg" alt="Profile Image">
+            <h1>Jared Scott</h1>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/email.png" alt="My Email"
+            class="social-icon" onclick="location.href='mailto:scottjaredw@gmail.com'">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+            class="social-icon" onclick="location.href='https://linkedin.com/'">
+            <img src="./assets/github.png" alt="My Github profile"
+            class="social-icon" onclick="location.href='https://github.com/'">
+        </div>
+    </section>
     <nav id="desktop-nav">
         <div>
             <ul class="nav-links">
@@ -36,10 +46,19 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </div>
     </nav>
+    <section id="about">
+        <div class="about-details">
+            <img src="./assets/Profile-Image2.jpg" alt="Profile Image">
+            <p>
+                Thanks for checking out my portfolio! <br>
+                My name is Jared Scott. I like giant cock and balls
+            </p>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
