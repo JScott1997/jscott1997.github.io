@@ -263,9 +263,19 @@ button:hover {
     margin-top: 2rem;
 }
 
-.forage-friendzy img{
-    height: 25rem;
+.forage-friendzy-media {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#ff-game-logo {
+    height: 30rem;
     border-radius: 50%;
+    border: 0.3rem solid rgb(0, 200, 200)
+}
+
+.forage-friendzy iframe{
+    border-radius: 1%;
     border: 0.3rem solid rgb(0, 200, 200)
 }
 
@@ -278,6 +288,22 @@ button:hover {
 .puzzlegeist img{
     height: 30rem;
     border-radius: 5%;
+    border: 0.3rem solid rgb(0, 200, 200)
+}
+
+.the-wild-return {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.the-wild-return-images {
+    display: block;
+}
+
+#twr-title-img {
+    height: 3rem;
+    border-radius: 1%;
     border: 0.3rem solid rgb(0, 200, 200)
 }
 
