@@ -7,3 +7,5 @@ Plan to finish:
 -try and figure out how to have them not in list and switch when clicking on navs
 -replace assets
 -refine linkedin page
+
+puzzlegeist trailer:https://www.youtube.com/watch?v=UITs0ualFQY

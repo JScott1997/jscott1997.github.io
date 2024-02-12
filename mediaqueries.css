@@ -6,4 +6,13 @@
     #mobile-nav{
         display: flex;
     }
+    .forage-friendzy{
+        display: block;
+    }
+    .puzzlegeist{
+        display: block;
+    }
+    .the-wild-return{
+        display: block;
+    }
 }
