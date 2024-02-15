@@ -6,6 +6,12 @@
     #mobile-nav{
         display: flex;
     }
+    #profile-section {
+        text-align: center;
+        padding-top: 2.5rem;
+        width: 40vh;
+        margin: auto;
+    }
     .forage-friendzy{
         display: block;
     }
@@ -22,20 +28,35 @@
         width: 368px;
         height: 207px;
     }
+    button {
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+    .game-links {
+        gap: 0.5rem;
+    }
+    .game-links img{
+        height: 2.3rem;
+    }
     .section_header_styling{
+        font-size: 3rem;
         margin: 0.5rem;
     }
     .section_header2_styling{
+        font-size: 2rem;
         margin: 0.2rem;
     }
     .section_text_styling{
+        font-size: 1.4rem;
         margin: 0.2rem;
     }
     .section_text2_styling{
+        font-size: 1.2rem;
         margin: 0.2rem;
         text-indent: 2rem;
     }
     .section_text2_styling_ul{
+        font-size: 1.2rem;
         margin: 0.2rem;
         margin-left: 4rem;
     }
