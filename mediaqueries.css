@@ -15,4 +15,31 @@
     .the-wild-return{
         display: block;
     }
+    #ff-game-logo {
+        height: 20rem;
+    }
+    iframe, video{
+        width: 368px;
+        height: 207px;
+    }
+    .section_header_styling{
+        margin: 0.5rem;
+    }
+    .section_header2_styling{
+        margin: 0.2rem;
+    }
+    .section_text_styling{
+        margin: 0.2rem;
+    }
+    .section_text2_styling{
+        margin: 0.2rem;
+        text-indent: 2rem;
+    }
+    .section_text2_styling_ul{
+        margin: 0.2rem;
+        margin-left: 4rem;
+    }
+    section{
+        margin: 0 5rem;
+    }
 }
