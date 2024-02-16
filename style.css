@@ -160,7 +160,7 @@ a:hover {
 
 .profile img{
     height: 15rem;
-    border-radius: 50%;
+    border-radius: 2rem;
     border: 0.3rem solid rgb(0,200,200);
 }
 
@@ -339,6 +339,12 @@ iframe, video{
     height: 3rem;
     border-radius: 1%;
     border: 0.3rem solid rgb(0, 200, 200)
+}
+
+.other-projects {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
 }
 
 /* education */
