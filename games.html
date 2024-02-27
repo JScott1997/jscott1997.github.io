@@ -4,88 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Online portfolio of Jared Scott showcasing projects from his studies in game programming.">
-    <title>Jared Scott's Portfolio</title>
+    <title>Jared Scott's Portfolio | Games</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
 
-    <nav id="mobile-nav">
-        <div class="hamburger-menu">
-            <div class="icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <!--<li><a href="#about" onclick="toggleMenu()">About</a></li>-->
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
-                <!--<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>-->
-                <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
-            </div>
-        </div>
-    </nav>
-
-    <div id="profile-section">
-        <div class="profile">
-            <img src="./assets/Profile-Image.jpg" alt="Profile Image">
-            <h1>Jared Scott</h1>
-        </div>
-        <p class="profile-text">
-            A programmer that enjoys coding video games.
-        </p>
-        <div class="location">
-            <img src="./assets/location.png" alt="location" class="social-icon">
-            <p class="profile-text">ON, Canada</p>
-        </div>
-        <div id="socials-container">
-            <img src="./assets/email.png" alt="My Email"
-            class="social-icon" onclick="location.href='mailto:scottjaredw@gmail.com'">
-            <img src="./assets/linkedin.png" alt="My LinkedIn profile"
-            class="social-icon" onclick="location.href='https://linkedin.com/in/jared-scott-83a6a1256'">
-            <img src="./assets/github.png" alt="My Github profile"
-            class="social-icon" onclick="location.href='https://github.com/JScott1997'">
-        </div>
-    </div>
-
-    <nav id="desktop-nav">
-        <div>
-            <ul class="nav-links">
-                <!--<li><a href="#about">About</a></li>-->
-                <li><a href="games.html">Games</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="education.html">Education</a></li>
-                <!--<li><a href="#skills">Skills</a></li>-->
-                <li><a onclick="window.open('./assets/Resume.pdf')">Resume</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!--
-    <section id="about">
-        <div class="about-content">
-            <img src="./assets/Profile-Image3.jpg" alt="Profile Image">
-            <div class="about-text">
-                <h1 class="section_header_styling">About Me</h1>
-                <p class="section_text2_styling">
-                    I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, 
-                    one Nation under God, indivisible, with liberty and justice for all.
-                    <br>Oh, say can you see by the dawn’s early light
-                    What so proudly we hailed at the twilight’s last gleaming?
-                    Whose broad stripes and bright stars thru the perilous fight,
-                    O’er the ramparts we watched were so gallantly streaming?
-                    And the rocket’s red glare, the bombs bursting in air,
-                    Gave proof through the night that our flag was still there.
-                    Oh, say does that star-spangled banner yet wave
-                    O’er the land of the free and the home of the brave?
-                </p>
-            </div>
-        </div>
-    </section>
-
     <section id="projects">
-        <h1 class="section_header_styling">Projects</h1>
+        <h1 class="section_header_styling">Games</h1>
         <div class="forage-friendzy">
             <div class="project-media">
                 <img id="ff-game-logo" class="project-media" src="./assets/forage_friendzy.png" alt="Forage Friendzy poster">
@@ -193,54 +119,16 @@
         </div>
         <div class="other-projects">
             <div>
-                <h1 class="section_header2_styling">Other Projects</h1>
+                <h1 class="section_header2_styling">Personal Game</h1>
                 <p class="section_text2_styling">
-                    Currently working on a way to concisely add displays of smaller projects
+                    Currently in early stages of production of an idea for a 2d pixel art survival game.
+                    Taking inspiration mainly from 2 of my favourite games Terraria and Stardew Valley.
                 </p>
             </div>
         </div>
     </section>
 
-    <section id="education">
-        <h1 class="section_header_styling">Education</h1>
-        <div class="education-text">
-            <p class="section_text2_styling">
-                I completed the programming stream of the GAME program offered concurrently at Brock University and Niagara College.<br>
-                The following are the diplomas, honour and awards I earned from my time in the program.
-            </p>
-        </div>
-        <div class="education-text">
-            <h2 class="section_header2_styling">Brock University</h2>
-            <p class="section_text_styling">BSc (Honours) in Game Programming<br>St.Catharines, ON, Canada<br>Sep. 2019 - Jun. 2023</p>
-            <p class="section_text2_styling">
-                I graduated Brock University with first-class standing.<br>
-                I received the Deans Honour List Award each of the 4 years of my program at Brock.<br>
-                My accumulated average of all 25 courses I took at Brock: 86%.
-            </p>
-        </div>
-        <div class="education-text">
-            <h2 class="section_header2_styling">Niagara College</h2>
-            <p class="section_text_styling">Advanced Diploma in Game Development<br>Welland, ON, Canada<br>Sep. 2019 - Jun. 2023</p>
-            <p class="section_text2_styling">
-                I was presented with an Award of Excellence for my performance during the 2022/23 academic year.<br>
-                I received the Deans Honour List Award 3 of my 4 years with Niagara College.<br>
-                My accumulated average of all 14 courses I took at Niagara: 91%.
-            </p>
-        </div>
-    </section>
-
-
-    <section id="skills">
-        <h1 class="section_header_styling">Skills</h1>
-        <h2 class="section_header2_styling">IN DEVELOPMENT</h2>
-        <h2 class="section_header2_styling">Currently reflecting... come back later</h2>
-    </section>
-
-    <section id="resume">
-        <h1 class="section_header_styling">Resume</h2>
-        <button onclick="window.open('./assets/Resume.pdf')">Download Resume</button>
-    </section>
-    -->
+    <div class="bottom-page"></div>
 
     <script src="script.js"></script>
 </body>

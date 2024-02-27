@@ -30,7 +30,9 @@ a,
 /* Desktop Nav */
 
 nav, .nav-links {
-    display: flex;
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
 
 nav{
@@ -40,9 +42,22 @@ nav{
 }
 
 .nav-links{
-    gap: 5rem;
     list-style: none; /* remove bullet points */
     font-size: 1.8rem;
+    margin-top: 4rem;
+}
+
+.nav-links a {
+    display: block;
+    padding: .625rem;
+    text-align: center;
+    color: rgb(0,200,200);
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.bottom-page {
+    margin: 10rem;
 }
 
 a {
@@ -53,9 +68,10 @@ a {
 
 a:hover {
     color: rgb(0, 150, 150);
-    text-decoration: underline;
-    text-underline-offset: 0.7rem;
+    /*text-decoration: underline;
+    text-underline-offset: 0.7rem;*/
     text-decoration-color: rgb(0, 150, 150);
+    cursor: pointer;
 }
 
 /* Hamburger Menu */
