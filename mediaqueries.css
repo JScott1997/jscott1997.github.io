@@ -13,13 +13,13 @@
         margin: auto;
     }
     .forage-friendzy{
-        display: block;
+        flex-direction: column;
     }
     .puzzlegeist{
-        display: block;
+        flex-direction: column;
     }
     .the-wild-return{
-        display: block;
+        flex-direction: column;
     }
     #ff-game-logo {
         height: 20rem;
@@ -62,5 +62,8 @@
     }
     section{
         margin: 0 5rem;
+    }
+    .skill-row{
+        flex-direction: column;
     }
 }
