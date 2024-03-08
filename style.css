@@ -237,7 +237,7 @@ section {
     font-size: 2.5rem;
     font-weight: 420;
     color: rgb(0, 200, 200);
-    margin: 0.5rem;
+    margin: 0.6rem;
 }
 
 .section_text_styling{
@@ -427,4 +427,23 @@ iframe, video{
     display: block;
     margin: auto;
     margin-top: 5rem;
+}
+
+/* other projects page*/
+
+.project-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.project-media-container img, iframe{
+    margin-top: 1rem;
+    text-align: center;
+    height: 20rem;
+    width: 35.555rem;
+    border-radius: 2rem;
+    border: 0.3rem solid rgb(0, 200, 200)
 }

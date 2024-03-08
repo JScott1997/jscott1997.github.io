@@ -66,4 +66,7 @@
     .skill-row{
         flex-direction: column;
     }
+    .project-media-container{
+        flex-direction: column;
+    }
 }
