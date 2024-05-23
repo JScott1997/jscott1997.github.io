@@ -176,7 +176,7 @@ a:hover {
 
 .profile img{
     height: 15rem;
-    border-radius: 2rem;
+    border-radius: 8rem;
     border: 0.3rem solid rgb(0,200,200);
 }
 
@@ -427,6 +427,10 @@ iframe, video{
     display: block;
     margin: auto;
     margin-top: 5rem;
+}
+
+#home {
+    display: flex;
 }
 
 /* other projects page*/
