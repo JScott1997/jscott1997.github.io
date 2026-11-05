@@ -122,6 +122,10 @@ nav {
     margin-top: 65px;
 }
 
+.social-links i {
+    font-size: 28px;
+}
+
 .social-links a {
     color: #92979d;
     transition: color 0.2s ease, transform 0.2s ease;
