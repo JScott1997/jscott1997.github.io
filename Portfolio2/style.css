@@ -209,6 +209,9 @@ nav {
     animation: fadeIn 0.25s ease;
     overflow: hidden;
     border-radius: 12px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
 
 .project-image {
